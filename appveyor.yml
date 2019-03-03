@@ -28,3 +28,7 @@ build:
 test:
   assemblies:
     - '**\*.Tests.dll'
+
+artifacts:  
+  - path: /.*\.dll/
+    name: NuGet package
