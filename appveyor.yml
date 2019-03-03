@@ -30,5 +30,5 @@ test:
     - '**\*.Tests.dll'
 
 artifacts:  
-  - path: /.*\.dll/
+  - path: /src\\UINavigation\.Abstractions\\bin\\Debug\\netstandard2\.0\\UINavigation.Abstractions.dll/
     name: NuGet package
